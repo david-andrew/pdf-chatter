@@ -43,6 +43,7 @@ def main(summarize: bool = False):
             print(s, end='', flush=True)
             chunks.append(s)
         chat.append(Message(role=Role.assistant, content=''.join(chunks)))
+        print('\n\n')
 
 
 if __name__ == '__main__':
