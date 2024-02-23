@@ -1,6 +1,6 @@
 from easyrepl import REPL
-from agent import Agent, Role, Message
-from extract import NougatExtractor
+from .agent import Agent, Role, Message
+from .extract import NougatExtractor
 from pathlib import Path
 from argparse import ArgumentParser
 

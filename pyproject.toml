@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pdf-chatter"
+version = "0.1.0"
+description = "LLM powered Q&A over extracted PDF text"
+authors = ["David Samson <david.andrew.engineer@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+openai = ">=1.12.0"
+nougat-ocr = ">=0.1.17"
+easyrepl = ">=0.1.2"
+
+[tool.poetry.scripts]
+pdf-chatter = "pdf_chatter.main:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
