@@ -14,6 +14,7 @@ easyrepl = ">=0.1.2"
 
 [tool.poetry.scripts]
 pdf-chatter = "pdf_chatter.main:main"
+pdf-summarize = "pdf_chatter.main:summarize"
 
 
 [build-system]

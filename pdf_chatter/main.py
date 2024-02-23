@@ -46,5 +46,9 @@ def main(summarize: bool = False):
         print('\n\n')
 
 
+def summarize():
+    main(summarize=True)
+
+
 if __name__ == '__main__':
     main()
