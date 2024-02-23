@@ -23,7 +23,6 @@ class Message(dict):
         super().__init__(role=role.value, content=content)
 
 
-# TODO: make this an abstract class, and have a separate class for each model
 class Agent:
     def __init__(self, model: Literal['gpt-4', 'gpt-4-turbo-preview'], timeout=None):
         self.model = model
@@ -42,14 +41,9 @@ class Agent:
         ])
 
     def multishot_sync(self, messages: list[Message]) -> str:
-        client = OpenAI()
-        completion = client.chat.completions.create(
-            model=self.model,
-            messages=messages,
-            timeout=self.timeout
-        )
-        result = completion.choices[0].message.content
-        return result
+        # use the streaming version so that timeout is on a per chunk basis
+        gen = self.multishot_streaming(messages)
+        return ''.join([*gen])
 
     def multishot_streaming(self, messages: list[Message]) -> Generator[str, None, None]:
         client = OpenAI()
