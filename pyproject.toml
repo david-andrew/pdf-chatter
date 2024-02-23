@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pdf-chatter"
-version = "0.1.0"
+version = "0.1.1"
 description = "LLM powered Q&A over extracted PDF text"
 authors = ["David Samson <david.andrew.engineer@gmail.com>"]
 license = "MIT"
