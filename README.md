@@ -35,7 +35,8 @@ pdf-summarize path/to/pdf
 ### Example
 
 <!-- ![pdf-chatter-demo](https://raw.githubusercontent.com/david-andrew/pdf-chatter/master/assets/pdf-chatter-demo.gif) -->
-<img src="https://david-andrew.github.io/_next/static/media/pdf-chatter-demo.6b4a0e5f.gif" width="100%">
+<!-- <img src="https://david-andrew.github.io/_next/static/media/pdf-chatter-demo.6b4a0e5f.gif" width="100%"> -->
+<img src="https://raw.githubusercontent.com/david-andrew/pdf-chatter/master/assets/pdf-chatter-demo.gif" width="100%">
 
 ### Tips & Notes
 
