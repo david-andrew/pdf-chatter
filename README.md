@@ -27,9 +27,8 @@ pdf-summarize path/to/pdf
 ```
 
 ### Example
-<p align="center">
-  <img src="https://raw.githubusercontent.com/david-andrew/pdf-chatter/master/assets/pdf-chatter-demo.gif" width="100%">
-</p>
+<!-- ![pdf-chatter-demo](https://raw.githubusercontent.com/david-andrew/pdf-chatter/master/assets/pdf-chatter-demo.gif) -->
+<img src="https://raw.githubusercontent.com/david-andrew/pdf-chatter/master/assets/pdf-chatter-demo.gif" width="100%">
 
 
 ### Tips & Notes
