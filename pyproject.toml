@@ -1,13 +1,13 @@
 [tool.poetry]
 name = "pdf-chatter"
-version = "0.1.3-rc2"
+version = "0.1.3-rc3"
 description = "LLM powered Q&A over extracted PDF text"
 authors = ["David Samson <david.andrew.engineer@gmail.com>"]
 license = "MIT"
 readme = "README.md"
+homepage = "https://github.com/david-andrew/pdf-chatter"
 
-[project.urls]
-"Homepage" = "https://github.com/david-andrew/pdf-chatter"
+[tool.poetry.urls]
 "Bug Tracker" = "https://github.com/david-andrew/pdf-chatter/issues"
 
 
