@@ -49,6 +49,7 @@ class Agent:
 
     def multishot_streaming(self, messages: list[Message]) -> Generator[str, None, None]:
         client = OpenAI()
+        # TODO: type hint this since it doesn't know that it's the streaming version
         gen = client.chat.completions.create(
             model=self.model,
             messages=messages,
