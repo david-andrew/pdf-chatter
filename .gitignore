@@ -7,3 +7,7 @@ __pycache__
 
 # documents folder
 docs/*
+
+
+# builds
+dist/*
