@@ -14,6 +14,8 @@ class Role(str, Enum):
     system = "system"
     assistant = "assistant"
     user = "user"
+    tool = "tool"
+    function = "function"
 
 
 class Message(dict):
